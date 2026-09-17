@@ -1,3 +1,5 @@
+<div style="page-break-before: always;"></div>
+
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
@@ -81,3 +83,12 @@ Visualizamos un futuro en el que todas las empresas de transporte, sin importar 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 ### 1.2.2.4. Lean UX Canvas
 ## 1.3. Segmentos objetivos
+
+- **Segmento Objetivo 1: Administradores de Distribución**
+
+> Los administradores de empresas distribuidoras de productos en **Lima y otras ciudades**, con edades entre **25 y 55 años**, que buscan **optimizar la gestión de la carga, monitorear a los transportistas y garantizar entregas seguras y puntuales**. Enfrentan desafíos en el **control de inventarios, seguimiento de rutas y reducción de pérdidas por incidencias o robos**, por lo que requieren soluciones tecnológicas que les brinden **visibilidad en tiempo real**. Según el **Ministerio de Transportes y Comunicaciones (MTC)**, el sector transporte y almacenamiento en Perú creció un **3,5 % en 2023**, evidenciando la necesidad de digitalizar procesos para responder a la creciente demanda.
+
+- **Segmento Objetivo 2: Transportistas**
+
+> Los transportistas encargados de la **distribución de productos en Lima y regiones cercanas**, con edades entre **20 y 50 años**, que necesitan herramientas digitales simples para **consultar la carga de sus camiones, seguir rutas optimizadas y comunicarse con la administración sin depender de llamadas o procesos manuales**. Enfrentan desafíos como **poca claridad sobre la carga, retrasos por rutas ineficientes y vulnerabilidad a incidencias en carretera**, por lo que valoran soluciones que hagan su trabajo más **seguro y eficiente**. Según la **Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías (SUTRAN)**, el transporte de carga en Perú movilizó más de **500 millones de toneladas en 2023**, lo que refleja la magnitud del sector y la necesidad de herramientas que mejoren la productividad de los conductores.
+
