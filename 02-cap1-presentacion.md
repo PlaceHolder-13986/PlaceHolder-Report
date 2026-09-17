@@ -79,9 +79,161 @@ Visualizamos un futuro en el que todas las empresas de transporte, sin importar 
 ### 1.2.1. Antecedentes y problemática
 ### 1.2.2. Lean UX Process
 ### 1.2.2.1. Lean UX Problem Statements
+
+**El estado actual del sector de transporte y distribución** está enfocado principalmente en procesos manuales, comunicación informal con los conductores y un control limitado sobre la ubicación de los vehículos y el estado de los productos.
+
+Lo que los productos y servicios existentes **no logran abordar es la falta de integración entre el monitoreo en tiempo real de los camiones y la gestión digital de los productos**, lo que genera retrasos, errores en las entregas y baja trazabilidad de la información.
+
+Nuestro producto abordará esta brecha mediante una **plataforma digital que integre geolocalización en tiempo real y un sistema de gestión de productos**, permitiendo a los usuarios optimizar las rutas, controlar las cargas y mejorar la visibilidad de las operaciones.
+
+Nuestro enfoque inicial estará dirigido a **administradores de flotas y transportistas de empresas de distribución.**
+
+Sabremos que hemos tenido éxito cuando observemos una **reducción en los tiempos de entrega, una disminución en los errores de carga y un incremento en la puntualidad de las entregas**, medido a través de indicadores de desempeño operativo.
+
 ### 1.2.2.2. Lean UX Assumptions
+
+#### A. Business Assumptions  
+1. Creemos que nuestros clientes necesitan **reducir costos operativos y errores en la distribución de productos** mediante una mejor visibilidad de sus rutas y camiones.  
+2. Estas necesidades se resuelven con una **plataforma ligera** que unifique seguimiento GPS, gestión de pedidos y monitoreo de camiones.  
+3. Nuestros primeros clientes serán **empresas medianas de transporte y distribución**, así como **proveedores que gestionan múltiples entregas diarias**.  
+4. Valor #1 esperado: **visibilidad en tiempo real** de la ubicación de camiones, estado de productos y entregas.  
+5. Beneficios adicionales: **optimización de rutas, reducción de tiempos de entrega, consolidación de pedidos duplicados, trazabilidad de entregas y mayor satisfacción del cliente final**.  
+6. Adquisición: **referencias en el sector logístico, visitas comerciales a empresas de transporte y asociaciones con proveedores.**.  
+7. Ingresos: **modelo de suscripción mensual escalonado** según el rol (administradores / transportistas).  
+8. Competencia principal: **Beetrack, SimpliRoute, Driv.in**.  
+9. Ventaja competitiva: **corrección de errores recurrentes en otras apps, interfaz más intuitiva y pricing accesible**.  
+10. Mayor riesgo de producto: **baja adopción por resistencia tecnológica de transportistas**.  
+11. Mitigación: **onboarding guiado, capacitación en campo, quick-wins como consolidación automática de pedidos y soporte en tiempo real**.  
+12. Otros supuestos críticos: **conectividad estable en las rutas, disposición de transportistas a usar dispositivos móviles y correcta integración de datos entre empresa–camión–cliente**.  
+
+#### B. User Assumptions  
+- **¿Quién es el usuario?** Administradores y transportistas.  
+- **¿Dónde encaja el producto?** En la **gestión diaria de operaciones**, desde la planificación de rutas hasta la confirmación de entregas, accesible vía desktop y móvil.  
+- **Problema a resolver:** falta de visibilidad en rutas, duplicidad de pedidos, registros manuales y errores en entregas.  
+- **Uso típico:** visualizar ubicación del camión en tiempo real, monitorear estado del vehículo, consolidar pedidos, registrar entregas, reportar incidencias.  
+- **Características importantes:** GPS integrado, consolidación de pedidos duplicados, gestión de paquetes cargados/entregados, alertas en tiempo real, reportes de desempeño.  
+- **Look & feel:** interfaz clara y responsiva; dashboard con mapa en vivo, indicadores visuales de entregas y alertas de incidencias.  
+
+#### C. User Outcome & Benefit Assumptions  
+- Rutas más eficientes y menos viajes innecesarios.  
+- Entregas puntuales y reducción de costos operativos.  
+- Consolidación de pedidos duplicados → **menos errores y mayor productividad**.  
+- Clientes finales más satisfechos al recibir pedidos de forma ordenada y sin retrasos.  
+- Administradores con **mejor control y decisiones basadas en datos en tiempo real**.  
+
+#### D. Business Outcome Assumptions (métricas objetivo)  
+- **Aumentar en un 25 % el DAU (Daily Active Users)** en los primeros 2 meses.  
+- **Reducir en un 40 % los errores de entrega y viajes duplicados** en 6 meses.  
+- **Optimizar rutas y disminuir tiempos de entrega en un 30 %**.  
+- Alcanzar **300 camiones activos en la plataforma en el primer año (2025)**.  
+- **Consolidar el 90 % de pedidos duplicados automáticamente**, reduciendo desplazamientos innecesarios.  
+
+#### E. Feature Assumptions  
+1. **GPS integrado en camiones** mejora la visibilidad y reduce retrasos.  
+2. **Consolidación automática de pedidos duplicados** optimiza rutas y evita viajes innecesarios.  
+3. **Dashboard de administradores + app para transportistas** facilita coordinación y control en tiempo real.  
+4. **Alertas de pago** mejor gestión de los pagos de los pedidos.  
+5. **Reportes automáticos de entregas y tiempos de ruta** mejoran la toma de decisiones estratégicas.
+
 ### 1.2.2.3. Lean UX Hypothesis Statements
+
+Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX: **“We believe we will achieve [this business outcome], If [these personas] attain [this benefit/user outcome] with [this feature or solution]”**, el cual permite estructurar las hipótesis de manera más clara, enfocándolas en el resultado de negocio, los usuarios involucrados, el beneficio esperado y la solución propuesta.
+- #### 1. Optimización de tiempos
+
+  - **Hipótesis:**  
+    **Creemos que lograremos** una reducción de 1 hora por reparto y una disminución del 15–20 % en los tiempos promedio de entrega, aumentando la eficiencia operativa y la satisfacción del cliente.<br>**Si** los transportistas y administradores<br>**Obtienen** rutas optimizadas en tiempo real que les permitan planificar mejor sus recorridos y evitar retrasos<br>**Con** un módulo de optimización de rutas con geolocalización en tiempo real integrado en la plataforma.
+
+- #### 2. Prevención de pérdidas y robos
+
+  - **Hipótesis:**  
+  **Creemos que lograremos** una reducción superior al 30 % en incidencias de robo o pérdida de mercadería, aumentando la confiabilidad del servicio.<br>**Si** los administradores<br>**Obtienen** notificaciones inmediatas sobre desvíos no autorizados y paradas inusuales<br>**Con** un sistema de alertas automatizadas integrado en la plataforma que monitorea rutas y comportamientos en tiempo real.
+- #### 3. Control en tiempo real de transportistas
+
+  - **Hipótesis:**  
+  **Creemos que lograremos** un aumento del 25 % en la puntualidad de las entregas y una mejor toma de decisiones operativas.<br>**Si** los administradores de flota<br>**Obtienen** visibilidad en tiempo real sobre la ubicación y actividad de cada conductor<br>**Con** un panel de control en tiempo real que muestre el estado y geolocalización de cada vehículo.
+
+- #### 4. Listado digital de productos por camión
+  - **Hipótesis:**  
+  **Creemos que lograremos** una reducción del 30 % en los errores de carga y entrega, aumentando la trazabilidad y la satisfacción del cliente.<br>**Si** los transportistas y administradores<br>**Obtienen** la capacidad de registrar y consultar fácilmente el listado digital de productos por cada camión<br>**Con** un sistema digital de inventario por vehículo accesible en tiempo real.
+ - #### 5. Adopción y uso de la plataforma por transportistas
+    - **Hipótesis:**  
+    **Creemos que lograremos** un aumento del 50 % en la adopción de la plataforma y un incremento del 25–50 % en el uso activo diario.<br>
+    **Si** los transportistas con baja familiaridad digital<br>
+    **Obtienen** una experiencia de incorporación guiada y capacitación en campo que reduzca la resistencia tecnológica y aumente su confianza en el uso de la plataforma<br>**Con** un programa estructurado de onboarding y entrenamiento práctico en campo.
+
 ### 1.2.2.4. Lean UX Canvas
+
+<table align='center'>
+<tr style="background-color: #e6e6fa">
+<th style="width:15%;" >1. Problema del Negocio </th>
+<th style="width:15%;">5. Soluciones  </th>
+<th style="width:15%;">2. Resultados comerciales</th>
+</tr>
+<tr>
+<td>
+En la actualidad, las empresas de transporte y distribución enfrentan dificultades para poder gestionar y enviar de manera eficiente sus productos. La falta de soluciones que permitan monitorear en tiempo real los vehículos, el estado de los productos, generan constantes retrasos, ciertas pérdidas de información y errores en las entregas. Esta situación impacta directamente en el cliente, que exige cada vez mayor rapidez y confiabilidad en los procesos de distribución de sus productos.<br><br>Frente a esta situación, nuestra aplicación se presenta como una alternativa innovadora que integra el seguimiento de tiempo real de los camiones con un gps integrado sin errores con una gestión de productos que logrará optimizar los tiempos de las entregas. La plataforma esta pensada paralos administradores y transportistas para que puedan llevar un control detallado de los paquetes, los productos entregados, y los que faltan entregar. En resumen, nuestra herramienta busca garantizar eficiencia, confiabilidad y simplicidad a nuestros usuarios.
+</td>
+<td>
+- Sistema de monitoreo en tiempo real: El sistema utilizaría dipositivos (sensores y GPS) con IoT (internet de las cosas) para poder poder mantener un control de los productos transportados, vehiculos y calcular la ruta más optima de transporte, ante cualquier inconveniente que pueda ocurrir (clima, accidentes, etc). <br><br>
+- Sistema de registro y validaciones de pedidos automatizada: El sistema se utilizaría para optimizar el proceso de registro y mantener un mejor control de los pedidos, para evitar los pedidos duplicados y los inconvenientes de viajes con direcciones desactualizadas. <br><br>
+- Sistema de alertas y notificaciones: El sistema se utilizaría para mantener un monitoreo constante para verificar los registros, ingreso y salida de vehiculos, conductores y productos. Adicionalmente, se monitorea durante el recorrido y la entrega de los productos al cliente final.  <br><br>
+<td>
+<br>
+- Aumentar la cantidad de usuarios diarios. de ambos segmentos objetivos, en un 25% en los 2 primeros meses.<br><br>
+- Reducir en un 40% los errores en las entregas y de viajes repetidos en los primeros 6 meses. <br><br>
+- Optimización de las rutas y reducción los tiempos de entrega en un 30%.<br>
+<br>- Obtener una base de camiones operativos en la plataforma de 300 unidades en el primer año (2025).<br><br>
+- Consolidar el 90% de pedidos duplicados de manera automatica. <br>
+<br>- Mantener el 70% de nuestros usuarios al finalizar el segundo año de uso.  <br>
+</td>
+</tr>
+<tr style="background-color: #e6e6fa">
+<th style="width:15%;"  >3. Usuarios </th>
+<th style="background-color: white;  "> </th>
+<th style="width:15%;">4. Resultados y beneficios del usuario</th>
+</tr>
+<tr>
+<td>
+- Transportistas: Transportistas de materiales o de insumos desde provincia a Lima, con edades de entre 20 a 50 años, que buscan mejorar sus tiempo de ruta y evitar viajes innecesarios <br><br>
+- Administradores: Administradores micro y pequeñas empresas, con edades de 25 a 55 años, que buscan mantener un control, monitoreo y mejor toma de decisiones con datos actualizados, en tiempo real.
+</td>
+<td>
+</td>
+<td>
+- Obtener una ruta más eficiente y menos viajes inecesarios<br><br>
+- Menor tiempo en las entregas y reducción de costos operativos <br><br>
+- Consolidar los pedidos duplicados, para reducir errores y mantener la productividad al máximo <br><br>
+- Satisfacción a los clientes finales al recibir los pedidos de manera rápida y de forma ordenada <br><br>
+- Mejor control y toma de decisiones gracias a los datos obtenidos en tiempo real <br>
+</td>
+</tr>
+<tr style="background-color: #e6e6fa">
+<th style="width:15%;" >6. Hipótesis </th>
+<th style="width:15%; ">7. ¿Qué es lo más importante que necesitamos aprender primero?</th>
+<th style="width:15%;">8. ¿Cuál es la menor cantidad de trabajo que necesitamos hacer para resolver las dudas y para hacer siguiente más importante?
+</th>
+</tr>
+<tr>
+<td>
+ - <strong>Creemos que lograremos</strong> reducir el tiempo promedio de entrega en 1 hora por reparto. <strong>Si</strong> los transportistas y administradores <strong>Obtienen</strong> rutas optimizadas en tiempo real <strong>Con</strong> un módulo de optimización de rutas con geolocalización en tiempo real.<br><br>
+- <strong>Creemos que lograremos</strong> reducir en 30 % las incidencias de robo o pérdida de mercadería. <trong>Si</strong> los administradores <strong>Obtienen</strong> alertas inmediatas sobre desvíos no autorizados y paradas inusuales </strong>Con</strong> un sistema de alertas automatizadas integrado en la plataforma.<br><br>
+- <strong>Creemos que lograremos</strong> aumentar la puntualidad de las entregas en 25 %. <strong>Si</strong> los administradores <strong>Obtienen</strong> visibilidad en tiempo real de la ubicación y actividad de los conductores <strong>Con</strong> un panel de control en tiempo real.<br><br>
+- <strong>Creemos que lograremos</strong> reducir los errores de carga y entrega en 30 % y mejorar la trazabilidad. <strong>Si</strong> los transportistas y administradores <strong>Obtienen</strong> acceso a un listado digital de productos por camión <strong>Con</strong> un sistema de registro y consulta digital de productos por vehículo.
+</td>
+<td>
+- Si el sistema no puede realizar las validaciones necesarias para el registro de los pedidos, los transportistas no la utilizarían por miedo a la posibilidad de tener varios pedidos repetidos.<br><br>
+- Si la información que proporciona el sistema de monitoreo no esta actualizada, en tiempo real, los administradores no confiarán en su capacidad de optimizar el control de los pedidos. <br><br>
+- Si la interfaz y la navegación de la plataforma resulta muy complicada de utilizar, nuestros posibles usuarios no lo adoptarían en sus empresas y dejarían de utilizarla.<br>
+</td>
+<td>
+- Entrevistas: Realizar entrevistas a nuestros posibles usuarios para que estos nos puedan contar sus experiencias. Con lo anterior, podriamos comprender sus necesidades, perspectiva y visión sobre el sistema de transportes y la administración.<br><br>
+- Prototipos: Crear una versión preliminar y funcional de nuestra plataforma. Además, con este prototipo se realizarían pruebas y se recolectaría información para poder mejorar y corregir errores del mismo.<br><br>
+- Pruebas: Estas se realizarian con los prototipos creados y serian a un grupo pequeño y seleccionado de nuestros usuarios que se ofrecieron a implementarlo en sus empresas. <br>
+</td>
+</tr>
+</table>
+
+
 ## 1.3. Segmentos objetivos
 
 - **Segmento Objetivo 1: Administradores de Distribución**
