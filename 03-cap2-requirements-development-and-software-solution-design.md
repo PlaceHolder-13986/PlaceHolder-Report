@@ -19,7 +19,6 @@
 ### 2.4.3. Product Backlog
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
-### 2.5.1.1. Candidate Context Discovery
 
 ### 5.2.5.1. Candidate Context Discovery
 
