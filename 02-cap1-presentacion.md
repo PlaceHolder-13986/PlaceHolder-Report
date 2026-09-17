@@ -137,6 +137,30 @@ Sabremos que hemos tenido éxito cuando observemos una **reducción en los tiemp
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
+Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX: **“We believe we will achieve [this business outcome], If [these personas] attain [this benefit/user outcome] with [this feature or solution]”**, el cual permite estructurar las hipótesis de manera más clara, enfocándolas en el resultado de negocio, los usuarios involucrados, el beneficio esperado y la solución propuesta.
+- #### 1. Optimización de tiempos
+
+  - **Hipótesis:**  
+    **Creemos que lograremos** una reducción de 1 hora por reparto y una disminución del 15–20 % en los tiempos promedio de entrega, aumentando la eficiencia operativa y la satisfacción del cliente.<br>**Si** los transportistas y administradores<br>**Obtienen** rutas optimizadas en tiempo real que les permitan planificar mejor sus recorridos y evitar retrasos<br>**Con** un módulo de optimización de rutas con geolocalización en tiempo real integrado en la plataforma.
+
+- #### 2. Prevención de pérdidas y robos
+
+  - **Hipótesis:**  
+  **Creemos que lograremos** una reducción superior al 30 % en incidencias de robo o pérdida de mercadería, aumentando la confiabilidad del servicio.<br>**Si** los administradores<br>**Obtienen** notificaciones inmediatas sobre desvíos no autorizados y paradas inusuales<br>**Con** un sistema de alertas automatizadas integrado en la plataforma que monitorea rutas y comportamientos en tiempo real.
+- #### 3. Control en tiempo real de transportistas
+
+  - **Hipótesis:**  
+  **Creemos que lograremos** un aumento del 25 % en la puntualidad de las entregas y una mejor toma de decisiones operativas.<br>**Si** los administradores de flota<br>**Obtienen** visibilidad en tiempo real sobre la ubicación y actividad de cada conductor<br>**Con** un panel de control en tiempo real que muestre el estado y geolocalización de cada vehículo.
+
+- #### 4. Listado digital de productos por camión
+  - **Hipótesis:**  
+  **Creemos que lograremos** una reducción del 30 % en los errores de carga y entrega, aumentando la trazabilidad y la satisfacción del cliente.<br>**Si** los transportistas y administradores<br>**Obtienen** la capacidad de registrar y consultar fácilmente el listado digital de productos por cada camión<br>**Con** un sistema digital de inventario por vehículo accesible en tiempo real.
+ - #### 5. Adopción y uso de la plataforma por transportistas
+    - **Hipótesis:**  
+    **Creemos que lograremos** un aumento del 50 % en la adopción de la plataforma y un incremento del 25–50 % en el uso activo diario.<br>
+    **Si** los transportistas con baja familiaridad digital<br>
+    **Obtienen** una experiencia de incorporación guiada y capacitación en campo que reduzca la resistencia tecnológica y aumente su confianza en el uso de la plataforma<br>**Con** un programa estructurado de onboarding y entrenamiento práctico en campo.
+
 ### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivos
