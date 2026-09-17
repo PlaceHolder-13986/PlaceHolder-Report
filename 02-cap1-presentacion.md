@@ -79,9 +79,23 @@ Visualizamos un futuro en el que todas las empresas de transporte, sin importar 
 ### 1.2.1. Antecedentes y problemática
 ### 1.2.2. Lean UX Process
 ### 1.2.2.1. Lean UX Problem Statements
+
+**El estado actual del sector de transporte y distribución** está enfocado principalmente en procesos manuales, comunicación informal con los conductores y un control limitado sobre la ubicación de los vehículos y el estado de los productos.
+
+Lo que los productos y servicios existentes **no logran abordar es la falta de integración entre el monitoreo en tiempo real de los camiones y la gestión digital de los productos**, lo que genera retrasos, errores en las entregas y baja trazabilidad de la información.
+
+Nuestro producto abordará esta brecha mediante una **plataforma digital que integre geolocalización en tiempo real y un sistema de gestión de productos**, permitiendo a los usuarios optimizar las rutas, controlar las cargas y mejorar la visibilidad de las operaciones.
+
+Nuestro enfoque inicial estará dirigido a **administradores de flotas y transportistas de empresas de distribución.**
+
+Sabremos que hemos tenido éxito cuando observemos una **reducción en los tiempos de entrega, una disminución en los errores de carga y un incremento en la puntualidad de las entregas**, medido a través de indicadores de desempeño operativo.
+
 ### 1.2.2.2. Lean UX Assumptions
+
 ### 1.2.2.3. Lean UX Hypothesis Statements
+
 ### 1.2.2.4. Lean UX Canvas
+
 ## 1.3. Segmentos objetivos
 
 - **Segmento Objetivo 1: Administradores de Distribución**
