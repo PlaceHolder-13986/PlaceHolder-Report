@@ -1,61 +1,68 @@
-<div align="center">
+<div style="text-align: center;">
 
+<img src="assets/images/readme/upc-logo.png" style="width: 150px;"/>
 
-
-![UPC Logo](assets/UPC_logo_transparente.png)
-
-Universidad Peruana de Ciencias Aplicadas
+Universidad Peruana De Ciencias Aplicadas
 
 Carrera de Ingeniería de Software
 
+**1ACC0238**
 
-**Ingeniería de Software**  
+**Aplicaciones para Dispositivos Móviles**
 
+NRC  
+**13986**
 
-<br>
+Docente  
+**Salazar Ruiz, Kevin Edgar**
 
-**1ACC0238** 
+**Informe del Trabajo Final**
 
-**Aplicaciones para Dispositivos Móviles**  
+Equipo  
+**QoriTech**
 
-<br>
+Proyecto  
+**Rutana**
 
-**NRC:** 
+**Integrantes**
 
-**Docente:** 
+<table style="margin: 0 auto; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th style="padding: 8px 16px;">Código</th>
+      <th style="padding: 8px 16px;">Apellidos y Nombres</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px 16px;">U20xxxxxxx</td>
+      <td style="padding: 8px 16px;">Costa Morales, Christofer William</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px 16px;">U20xxxxxxx</td>
+      <td style="padding: 8px 16px;;">Howard Robles, Guillermo Arturo</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px 16px;">U20xxxxxxx</td>
+      <td style="padding: 8px 16px;">Huaman Gallardo, Bruno Aldair</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px 16px;">U20xxxxxxx</td>
+      <td style="padding: 8px 16px;">Miraval Pomalaya, Rodrigo Jesus</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px 16px;">U20xxxxxxx</td>
+      <td style="padding: 8px 16px;">Ramirez Cabrera, Kenyi Efrain</td>
+    </tr>
+  </tbody>
+</table>
 
-<br>
+**Período 202620**
 
-### Informe de Trabajo Final
-
-<br>
-
-**Startup:** 
-
-**Producto:** 
-
-<br>
-
-| Integrante | Código |
-|:----------:|:------:|
-|            |        |
-|            |        |
-|            |        |
-|            |        |
-|            |        |
-
-<br>
-
-**2026-20**  
-**Diciembre del 2026**  
-
+**Agosto 2026**
 
 </div>
 
+<div style="page-break-after: always;"></div>
 
-Registro de Versiones del Informe
-Project Report Collaboration Insights
-Contenido
-Tabla de contenidos
-Student Outcome (ver anexo A)
-Objetivos SMART
+## Registro de Versiones del Informe
