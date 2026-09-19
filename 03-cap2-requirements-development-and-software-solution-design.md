@@ -140,6 +140,16 @@ Nuestra propuesta de valor destaca por fusionar monitoreo IoT en tiempo real, au
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. Big Picture EventStorming
 ### 2.3.6. Ubiquitous Language
+| Term (EN)                                         | Definición (ES)                                                                                                                                                           |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Worker (Trabajador / “Administrador” en interfaz) | Persona responsable de gestionar operaciones en la plataforma. No es un administrador del sistema, sino un trabajador operativo que organiza rutas, despachos y entregas. |
+| Route (Ruta)                                      | Zona de entregas asignada a un vehículo o trabajador. Define un conjunto de destinos a cubrir en un recorrido.                                                            |
+| Traveler (Viajero)                                | Representa una zona de entrega lejana, normalmente asociada a mayor tiempo o distancia de recorrido.                                                                      |
+| Local (Local)                                     | Representa una zona de entrega cercana, asociada a distancias cortas o repartos inmediatos.                                                                               |
+| Dispatch (Despacho)                               | Despacho de salida, embarque, carga de flota.                                                          |
+| Client (Cliente)                                  | Bodega o punto de venta al cual se deben entregar los productos. Cada cliente pertenece a una zona de entrega.                                                            |
+| Supplier (Proveedor)                              | Empresa abastecedora de los productos a distribuir. En este caso, corresponde a **Gloria**.                                                                               |
+| Delivery zone (Zona de entrega)                   | Sector de reparto, zona operativa, clúster de entrega.                                                                        |
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
 ### 2.4.2. Impact Mapping
