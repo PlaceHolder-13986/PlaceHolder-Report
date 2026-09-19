@@ -38,10 +38,10 @@
   <tr>
     <td rowspan="2" align="center"><b>Perfil</b></td>
     <td><b>Overview</b></td>
-    <td> Plataforma logística para el mercado peruano que integra IoT y GPS para monitoreo en tiempo real, optimización de rutas y control de productos en tránsito, adaptada a problemas locales como tráfico, bloqueos y cambios climáticos. </td>
+    <td> Solución tecnológica desarrollada para el mercado peruano que fusiona IoT y GPS para garantizar el seguimiento en vivo, la mejora de rutas y la supervisión de mercancías en tránsito. Está diseñada específicamente para mitigar los retos locales de transporte, tales como la congestión vehicular, los cierres de vías y las variaciones climatológicas. </td>
     <td> Plataforma chilena con fuerte presencia en LATAM; optimización de rutas y seguimiento en tiempo real. </td>
     <td> Fundada en Chile, adquirida por DispatchTrack; fuerte en trazabilidad de última milla. </td>
-    <td> Empresa global india; ofrece orquestación de entregas, visibilidad y devoluciones. </td>
+    <td> Empresa multinacional de origen indio especializada en orquestación de entregas, visibilidad de envíos y gestión inteligente de devoluciones. </td>
   </tr>
   <tr>
     <td><b>Ventaja competitiva:<br>¿Qué valor ofrece a los clientes?</b></td>
@@ -73,11 +73,11 @@
     <td> Incluye monitoreo IoT en tiempo real, registro automático de pedidos, panel de control para administradores y alertas de desvíos o incidencias.</td>
     <td> Optimización de rutas, seguimiento en vivo, gestión de flota y analítica. </td>
     <td> PlannerPro (rutas), LastMile (seguimiento), notificaciones y prueba de entrega. </td>
-    <td> Gestión integral de entregas, devoluciones, visibilidad en tiempo real. </td>
+    <td> Administración total de la cadena de distribución, control de logística inversa y trazabilidad instantánea de los envíos. </td>
   </tr>
   <tr>
     <td><b>Precios & Costos</b></td>
-    <td> Suscripción mensual escalonada: plan básico para pymes, plan estándar para medianas flotas y plan corporativo para grandes empresas. Adaptado al mercado peruano, permite empezar con bajo costo y escalar según crecimiento.</td>
+    <td> Planes de suscripción flexible y escalonada (básico, estándar y corporativo) adaptados al ecosistema peruano. Permiten iniciar operaciones con un presupuesto reducido y expandir las capacidades conforme la empresa crece. </td> 
     <td> Modelo SaaS flexible según volumen de entregas. </td>
     <td> Suscripción mensual adaptada al tamaño de la operación. </td>
     <td> Tarifas empresariales escalables para operaciones globales. </td>
@@ -125,9 +125,9 @@
 
 Nuestra estrategia frente a competidores como SimpliRoute, Beetrack y FarEye será iniciar con pymes de transporte y distribución en el mercado peruano, ofreciendo una solución accesible y adaptable. A diferencia de los competidores consolidados, priorizaremos la simplicidad de uso, el soporte local y la personalización de funciones según la realidad de cada empresa.
 
-Como táctica, implementaremos un modelo SaaS escalonado que permita a las pequeñas empresas comenzar con un costo bajo y ampliar funcionalidades conforme crezcan sus operaciones. Asimismo, reforzaremos la confianza del mercado mediante pilotos gratuitos, casos de éxito locales y un soporte técnico cercano.
+Implementaremos un modelo SaaS modular y escalonado que facilite a las pequeñas empresas una adopción de bajo costo, permitiéndoles expandir capacidades a la par de sus operaciones. Para consolidar la confianza en el mercado nacional, impulsaremos estrategias basadas en pruebas piloto sin costo, validación con casos de éxito locales y un soporte técnico directo y cercano.
 
-Nuestra propuesta se diferenciará al integrar monitoreo IoT en tiempo real, validación automática de pedidos y alertas inteligentes en una sola plataforma ligera, lo que permitirá reducir costos, mejorar la puntualidad y aumentar la seguridad de las entregas en el contexto peruano.
+Nuestra propuesta de valor destaca por fusionar monitoreo IoT en tiempo real, automatización en la validación de pedidos y un sistema de alertas inteligentes dentro de una plataforma ágil y ligera. Esto se traduce en una reducción drástica de costos operativos, mayor cumplimiento en los tiempos de entrega y una seguridad reforzada frente a los desafíos logísticos del contexto peruano.
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
