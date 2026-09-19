@@ -22,16 +22,16 @@
   <tr>
     <th colspan="2" style="width:20%">(En la cabecera colocar por cada competidor nombre y logo)</th>
     <th style="width:20%">
-      <img src="./assets/Cap 2/Logo_rutana.png" alt="Rutana" width="100" height="100">
+      <img src="./assets/images/Cap 2/Logo_rutana.png" alt="Rutana" width="100" height="100">
     </th>
     <th style="width:20%">
-      <img src="./assets/Cap 2/Logo_simpliroute.png" alt="SimpliRoute" width="100" height="100">
+      <img src="./assets/images/Cap 2/Logo_simpliroute.png" alt="SimpliRoute" width="100" height="100">
     </th>
     <th style="width:20%">
-      <img src="./assets/Cap 2/Logo_beetrack.png" alt="Beetrack" width="100" height="100">
+      <img src="./assets/images/Cap 2/Logo_beetrack.png" alt="Beetrack" width="100" height="100">
     </th>   
     <th style="width:20%">
-      <img src="./assets/Cap 2/Logo_fareye.png" alt="FarEye" width="100" height="100">
+      <img src="./assets/images/Cap 2/Logo_fareye.png" alt="FarEye" width="100" height="100">
     </th>
   </tr>
   <!-- PERFIL -->
