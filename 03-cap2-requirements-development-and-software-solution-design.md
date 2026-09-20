@@ -135,10 +135,111 @@ Nuestra propuesta de valor destaca por fusionar monitoreo IoT en tiempo real, au
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+En esta sección se presentan dos User Personas que representan los segmentos del proyecto: los Administradores y los Transportistas. Estos perfiles permiten comprender en profundidad las necesidades, motivaciones, frustraciones y comportamientos de los usuarios potenciales del sistema, el cual busca mejorar el seguimiento de rutas, la gestión de pedidos y el control de las operaciones de transporte.
+
+El User Persona Jorge Caceres representa a los administradores de distribución. Jorge Caceres trabaja coordinando diariamente las rutas de camiones y supervisando la correcta entrega de cientos de pedidos. A pesar de su experiencia en el sector, suele enfrentarse a problemas de visibilidad: no siempre sabe en qué punto exacto se encuentran los transportistas ni si los pedidos han sido entregados en orden y a tiempo. Ha intentado usar otras plataformas de gestión, pero se queja de que son demasiado complejas o poco adaptables a la realidad de su empresa. Su motivación principal es tener un control en tiempo real y sin errores, que le permita optimizar rutas, reducir costos y asegurar la satisfacción de los clientes. Jorge busca una herramienta práctica, intuitiva y confiable que le dé autonomía y reduzca su dependencia de reportes manuales.
+
+<img src="assets/images/cap2/Jorge Caceress-user-persona.png" alt="Jorge Caceres">
+
+El User Persona Luis Gutiérrez representa a los transportistas que realizan las entregas en ruta. Luis tiene tiempo trabajando en transporte de mercancías y conoce de primera mano las dificultades de su labor diaria: rutas mal planificadas, entregas duplicadas o mal registradas y la falta de comunicación clara con los administradores. Actualmente utiliza aplicaciones que le resultan confusas y que generan frustración porque no consolidan pedidos de un mismo cliente, obligándolo a hacer viajes innecesarios y perder tiempo valioso. Su principal motivación es contar con una app sencilla y ágil en su teléfono que le muestre claramente su ruta, los pedidos cargados y entregados. Luis quiere reducir la carga administrativa de su trabajo y enfocarse en lo que mejor sabe hacer: transportar y entregar productos de manera segura y puntual.
+
+<img src="assets/images/cap2/Luis Gutierrezz-user-persona.png" alt="Luis Gutierrez">
+
+
 ### 2.3.2. User Task Matrix
+
+La User Task Matrix nos permite descomponer las actividades y tareas que nuestros usuarios realizan al utilizar la solución propuesta. Estas tareas, al clasificarse por su frecuencia e importancia, nos ayudan a priorizar qué funcionalidades de la aplicación deben ser desarrolladas con mayor énfasis para optimizar la experiencia.
+
+Los segmentos considerados para este análisis son:
+
+- **Administrador (Jorge Cáceres)**
+- **Transportista (Luis Gutiérrez)**
+
+---
+
+### Task Matrix
+
+| **Tarea**                                                  | **Jorge Cáceres (Administrador)** |        | **Luis Gutiérrez (Transportista)** |        |
+| ---------------------------------------------------------- | --------------------------------- | ------ | ---------------------------------- | ------ |
+| Supervisar y controlar inventario de productos             | Often                             | High   | Sometimes                          | Medium |
+| Coordinar pedidos y entregas                               | Always                            | High   | Often                              | High   |
+| Revisar ingresos, costos y márgenes de venta               | Often                             | High   | Rarely                             | Low    |
+| Comunicarse con clientes y proveedores                     | Often                             | High   | Sometimes                          | Medium |
+| Gestionar incidencias en pedidos (faltantes, devoluciones) | Sometimes                         | High   | Sometimes                          | Medium |
+| Optimizar rutas de distribución                            | Rarely                            | Medium | Always                             | High   |
+| Confirmar entregas en destino                              | Sometimes                         | Medium | Always                             | High   |
+| Cargar y despachar productos al camión                     | Sometimes                         | Low    | Often                              | High   |
+| Buscar herramientas para mejorar la gestión logística      | Sometimes                         | Medium | Rarely                             | Low    |
+
+---
+
+### Análisis
+
+El **administrador** se enfoca en el control y la eficiencia del negocio: supervisa, gestiona pedidos, revisa márgenes de venta y mantiene comunicación constante con los proveedores y demás áreas. Su prioridad está en asegurar que los productos estén disponibles y que las entregas se realicen sin contratiempos, lo cual impacta directamente en la rentabilidad.
+
+El **transportista**, concentra sus esfuerzos en la ejecución operativa de las entregas: optimiza rutas, confirma entregas en destino y monitorea el estado del camión. Su rol está directamente ligado a la puntualidad y la confiabilidad de la distribución, lo que lo convierte en un eslabón esencial.
+
+Ambos perfiles coinciden en la importancia de **gestionar incidencias** y **mantener una comunicación fluida**, ya que cualquier error o retraso impacta tanto en la operación del administrador como en la del transportista.
+
 ### 2.3.3. User Journey Mapping
+
+**Jorge Caceres**
+
+<img src="assets/images/cap2/UJM-Administración.png" alt="User Journey Mapping de Transportistas">
+
+**Luis Gutierrez**
+
+<img src="assets/images/cap2/UJM-Transportista.png" alt="User Journey Mapping de Transportistas">
+
 ### 2.3.4. Empathy Mapping
+
+**Jorge Caceres**
+
+![Jorge Caceres empathy mapping.png](assets/images/cap2/Jorge%20Caceres%20empathy%20mapping.png)
+
+**Luis Gutiérrez**
+
+![Luis Gutiérrez empathy mapping.png](assets/images/cap2/Luis%20Guti%C3%A9rrez%20empathy%20mapping.png)
+
+
 ### 2.3.5. Big Picture EventStorming
+
+1. Delivery Execution
+<p align="center">
+  <img src="assets/images/cap2/Big-Picture-EventStorming/Storming AppsWeb - Delivery Execution.jpg" 
+       alt="SuscripcionesyPagos" 
+       width="250">
+</p>
+
+2. Route Management
+<p align="center">
+  <img src="assets/images/cap2/Big-Picture-EventStorming/Storming AppsWeb - Route Management.jpg" 
+       alt="IdentidadyAcceso" 
+       width="250">
+</p>
+
+3. Operations Monitoring
+<p align="center">
+  <img src="assets/images/cap2/Big-Picture-EventStorming/Storming AppsWeb - Operations Monitoring.jpg" 
+       alt="Recursos" 
+       width="250">
+</p>
+
+4. Document Management
+<p align="center">
+  <img src="assets/images/cap2/Big-Picture-EventStorming/Storming AppsWeb - Document Management.jpg" 
+       alt="Ejecucion" 
+       width="250">
+</p>
+
+5. Incident Management
+<p align="center">
+  <img src="assets/images/cap2/Big-Picture-EventStorming/Storming AppsWeb - Incident Management.jpg" 
+       alt="Incidencias" 
+       width="250">
+</p>
+
+
 ### 2.3.6. Ubiquitous Language
 | Term (EN)                                         | Definición (ES)                                                                                                                                                           |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
