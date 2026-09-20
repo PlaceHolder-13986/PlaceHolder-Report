@@ -192,6 +192,16 @@ Ambos perfiles coinciden en la importancia de **gestionar incidencias** y **mant
 <img src="assets/images/cap2/UJM-Transportista.png" alt="User Journey Mapping de Transportistas">
 
 ### 2.3.4. Empathy Mapping
+
+**Jorge Caceres**
+
+![Jorge Caceres empathy mapping.png](assets/images/cap2/Jorge%20Caceres%20empathy%20mapping.png)
+
+**Luis Gutiérrez**
+
+![Luis Gutiérrez empathy mapping.png](assets/images/cap2/Luis%20Guti%C3%A9rrez%20empathy%20mapping.png)
+
+
 ### 2.3.5. Big Picture EventStorming
 ### 2.3.6. Ubiquitous Language
 | Term (EN)                                         | Definición (ES)                                                                                                                                                           |
