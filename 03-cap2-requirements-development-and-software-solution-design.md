@@ -28,12 +28,39 @@
 ### 2.5.3.2. Software Architecture Container Level Diagrams
 ### 2.5.3.3. Software Architecture Deployment Diagrams
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.x. Bounded Context: 
-### 2.6.x.1. Domain Layer
-### 2.6.x.2. Interface Layer
-### 2.6.x.3. Application Layer
-### 2.6.x.4 Infrastructure Layer
-### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-### 2.6.x.6.2. Bounded Context Database Design Diagram
+### 2.6.1. Bounded Context: IAM
+
+El bounded context **IAM (Identity & Access Management)** corresponde a un *Generic Domain* dentro de Rutana, encargado de la autenticación, la gestión de identidad de los usuarios y la administración de invitaciones a organizaciones. A continuación se detallan los términos clave de su lenguaje ubicuo:
+
+| Término | Definición |
+|:----|:----|
+| **User** | Representa la identidad de un usuario dentro del sistema, incluyendo sus credenciales y su rol. |
+| **Profile** | Contiene los datos personales asociados a un usuario (nombre, teléfono, avatar). |
+| **Invitation** | Representa la invitación enviada a un correo electrónico para unirse a una organización con un rol asignado. |
+| **Role** | Define el conjunto de permisos que posee un usuario dentro de una organización. |
+
+<br>
+
+#### 2.6.1.1. Domain Layer
+
+En esta capa se modelan las clases de categoría como **Entities**, **Value Objects**, **Aggregates**, **Factories** y **Domain Services**, o abstracciones representadas por interfaces como en el caso de los **Repositories**.
+
+- **Aggregate Root:** `User` — encapsula la identidad, credenciales y estado del usuario, y actúa como raíz de consistencia junto con `Profile`.
+- **Entities:** `Profile`, `Invitation`.
+- **Value Objects:** `Email`, `Role`.
+- **Domain Services:** `AuthenticationService` — valida credenciales y aplica las políticas de autorización.
+- **Factories:** `UserFactory` — encapsula la creación de un `User` válido a partir de datos de registro.
+- **Repositories (interfaces):** `UserRepository`, `InvitationRepository`.
+
+<br>
+
+#### 2.6.1.2. Interface Layer
+
+En esta sección se introduce y presenta las clases que forman parte de la Interface/Presentation Layer, como clases del tipo **Controllers** o **Consumers**.
+
+- **Controllers:**
+  - `AuthController` — expone los endpoints de inicio de sesión y registro.
+  - `UserController` — expone las operaciones sobre el perfil del usuario.
+  - `InvitationController` — expone las operaciones de invitación a una organización (crear, aceptar, cancelar).
+
+<br>
