@@ -203,6 +203,43 @@ Ambos perfiles coinciden en la importancia de **gestionar incidencias** y **mant
 
 
 ### 2.3.5. Big Picture EventStorming
+
+1. Delivery Execution
+<p align="center">
+  <img src="assets/images/cap2/Big-Picture-EventStorming/Storming AppsWeb - Delivery Execution.jpg" 
+       alt="SuscripcionesyPagos" 
+       width="250">
+</p>
+
+2. Route Management
+<p align="center">
+  <img src="assets/images/cap2/Big-Picture-EventStorming/Storming AppsWeb - Route Management.jpg" 
+       alt="IdentidadyAcceso" 
+       width="250">
+</p>
+
+3. Operations Monitoring
+<p align="center">
+  <img src="assets/images/cap2/Big-Picture-EventStorming/Storming AppsWeb - Operations Monitoring.jpg" 
+       alt="Recursos" 
+       width="250">
+</p>
+
+4. Document Management
+<p align="center">
+  <img src="assets/images/cap2/Big-Picture-EventStorming/Storming AppsWeb - Document Management.jpg" 
+       alt="Ejecucion" 
+       width="250">
+</p>
+
+5. Incident Management
+<p align="center">
+  <img src="assets/images/cap2/Big-Picture-EventStorming/Storming AppsWeb - Incident Management.jpg" 
+       alt="Incidencias" 
+       width="250">
+</p>
+
+
 ### 2.3.6. Ubiquitous Language
 | Term (EN)                                         | Definición (ES)                                                                                                                                                           |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
