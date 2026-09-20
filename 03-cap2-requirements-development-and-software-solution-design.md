@@ -64,3 +64,30 @@ En esta sección se introduce y presenta las clases que forman parte de la Inter
   - `InvitationController` — expone las operaciones de invitación a una organización (crear, aceptar, cancelar).
 
 <br>
+
+#### 2.6.1.3. Application Layer
+
+En esta sección se explica a través de qué clases se manejan los flujos de procesos del negocio. Debe evidenciarse las capabilities de la aplicación en relación al bounded context. Aquí deben considerarse clases del tipo **Command Handlers** e **Event Handlers**.
+
+- **Command Handlers:**
+  - `UserCommandService` — procesa el registro de usuarios y el cambio de rol.
+  - `InvitationCommandService` — procesa la creación, aceptación y cancelación de invitaciones.
+- **Query Handlers:**
+  - `UserQueryService` — resuelve las consultas sobre usuarios.
+  - `InvitationQueryService` — resuelve las consultas sobre invitaciones.
+- **Event Handlers:**
+  - `UserEventHandler` — reacciona a eventos de dominio (`UserRegistered`, `InvitationAccepted`) y coordina efectos secundarios hacia otros bounded contexts.
+
+<br>
+
+#### 2.6.1.4. Infrastructure Layer
+
+En esta capa se presentan aquellas clases que acceden a servicios externos como *databases*, *messaging systems* o *email services*. Es en esta capa se ubica la implementación de los **Repositories** para las interfaces definidas en Domain Layer.
+
+- `UserRepositoryImpl` — implementa `UserRepository` mediante JPA/Spring Data.
+- `InvitationRepositoryImpl` — implementa `InvitationRepository` mediante JPA/Spring Data.
+- `TokenProvider` — genera y valida los tokens JWT de sesión.
+- `DomainEventPublisher` — publica los eventos de dominio hacia el message broker para que otros bounded contexts (como Suscriptions) puedan reaccionar a ellos.
+
+<br>
+
