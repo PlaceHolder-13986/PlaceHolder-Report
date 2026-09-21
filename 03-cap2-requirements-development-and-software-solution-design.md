@@ -459,6 +459,12 @@ Con estas historias de dominio se evidencia cómo colaboran los bounded contexts
 ### 2.5.3.1. Software Architecture Context Level Diagrams
 ### 2.5.3.2. Software Architecture Container Level Diagrams
 ### 2.5.3.3. Software Architecture Deployment Diagrams
+
+En esta sección se presenta el Deployment Diagram elaborado bajo el estándar C4. Este diagrama describe la distribución física del sistema y la topología de infraestructura sobre la cual se ejecutan los componentes de software.
+
+![SA-Deployment-diagram.png](assets/images/cap2/SA-Deployment-diagram.png)
+
+
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.1. Bounded Context: IAM
 
