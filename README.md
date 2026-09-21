@@ -40,7 +40,7 @@ Proyecto
     </tr>
     <tr>
       <td style="padding: 8px 16px;">U202222275</td>
-      <td style="padding: 8px 16px;;">Howard Robles, Guillermo Arturo</td>
+      <td style="padding: 8px 16px;;">Howard Robles, Guillermoo Arturo</td>
     </tr>
     <tr>
       <td style="padding: 8px 16px;">U202117762</td>
