@@ -51,7 +51,7 @@ Proyecto
       <td style="padding: 8px 16px;">Miraval Pomalaya, Rodrigo Jesus</td>
     </tr>
     <tr>
-      <td style="padding: 8px 16px;">U20xxxxxxx</td>
+      <td style="padding: 8px 16px;">U202220138</td>
       <td style="padding: 8px 16px;">Ramirez Cabrera, Kenyi Efrain</td>
     </tr>
   </tbody>
@@ -119,7 +119,7 @@ Esta sección detalla cómo el equipo colaboró para construir el **Final Projec
             <strong>Miraval Pomalaya, Rodrigo Jesus</strong><br>
             <strong>AV1:</strong> Actualizo <br>
             <strong>Ramirez Cabrera, Kenyi Efrain</strong><br>
-            <strong>AV1:</strong> Actualizo <br>
+            <strong>AV1:</strong> Investigó y aplicó marcos de trabajo centrados en el usuario y técnicas de modelado del dominio. Llevó a cabo el diseño de User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping en la sección de Needfinding, e investigó y facilitó la dinámica de Big Picture EventStorming. <br>
         </td>
         <td style="padding: 15px; text-align: left; vertical-align: top;">
             <strong>AV1:</strong> Se definió la visión del producto y objetivos mediante la participación del Product Owner y el equipo. Se elaboraron historias de usuario, análisis de competidores y needfinding. Se aplicó event storming y se diseñaron interfaces UX.<br><br>
@@ -137,7 +137,7 @@ Esta sección detalla cómo el equipo colaboró para construir el **Final Projec
             <strong>Miraval Pomalaya, Rodrigo Jesus</strong><br>
             <strong>AV1:</strong> Reconocio <br>
             <strong>Ramirez Cabrera, Kenyi Efrain</strong><br>
-            <strong>AV1:</strong> Reconocio <br>
+            <strong>AV1:</strong> Identificó la necesidad de profundizar en herramientas de UX Research y diseño estratégico DDD para alinearse a los estándares actuales de la industria movil/web. <br>
         </td>
         <td style="padding: 15px; text-align: left; vertical-align: top;">
             <strong>AV1:</strong> Se estableció un flujo de trabajo basado en Gitflow y conventional commits. Se definieron metas semanales y se promovió la participación equitativa. El equipo cumplió con los objetivos del hito.<br><br>
