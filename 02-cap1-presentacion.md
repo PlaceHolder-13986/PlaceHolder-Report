@@ -42,10 +42,10 @@ Visualizamos un futuro en el que todas las empresas de transporte, sin importar 
 
 <br>
 
-**Bruno Aldair Huaman Gallardo (U20xxxxx)**
+**Bruno Aldair Huaman Gallardo (U202117762)**
 
 <div style="display: flex; align-items: center;">
-  <img src="assets/images/cap1/Integrante-4.jpeg" alt="Descripción de la imagen" style="width: 150px; margin-right: 20px; border-radius: 10%;">
+  <img src="assets/images/cap1/Integrante-4.jpg" alt="Descripción de la imagen" style="width: 150px; margin-right: 20px; border-radius: 10%;">
   <div style="flex: 1;">
   <p>Mi nombre es Bruno Aldair Huaman Gallardo, tengo 21 años y vivo en Lima. Actualmente soy estudiante de Ingeniería de Software, me apasiona transformar ideas en realidades funcionales; desde el diseño de arquitecturas de red hasta la implementación de sistemas inteligentes. Soy una persona que valora el aprendizaje continuo, lo que me ha llevado a dominar herramientas como SQL Server, Node.js y Java, además de mantenerme en constante mejora de mi nivel de inglés para fortalecer mi perfil global. 
   </div>
