@@ -586,3 +586,24 @@ En esta capa se modelan las clases de categoría como **Entities**, **Value Obje
 
 <br>
 
+#### 2.6.2.2. Interface Layer
+
+En esta sección se introduce y presenta las clases que forman parte de la Interface/Presentation Layer, como clases del tipo **Controllers** o **Consumers**.
+
+- **Controllers:**
+  - `VehicleController` — expone los endpoints de registro, consulta, actualización de perfil y modificación del estado del vehículo.
+
+<br>
+
+#### 2.6.2.3. Application Layer
+
+En esta sección se explica a través de qué clases se manejan los flujos de procesos del negocio. Debe evidenciarse las capabilities de la aplicación en relación al bounded context. Aquí deben considerarse clases del tipo **Command Handlers** e **Event Handlers**.
+
+- **Command Handlers:**
+  - `VehicleCommandService` — procesa la creación, actualización de perfil y cambio de estado de los vehículos.
+- **Query Handlers:**
+  - `VehicleQueryService` — resuelve las consultas sobre vehículos por ID, por organización o por estado.
+- **Event Handlers:**
+  - `VehicleEventHandler` — reacciona a eventos de dominio (`VehicleRegistered`, `VehicleStateChanged`) y coordina efectos secundarios hacia otros bounded contexts (como Planning).
+
+<br>
