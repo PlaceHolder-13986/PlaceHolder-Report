@@ -643,8 +643,9 @@ Se presenta el **Class Diagram** en UML de las clases del Domain Layer del bound
 <br>
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
-*(Nota: Añadí esta subsección para mantener la estructura completa de tu documento base)*
 
 Se presenta y explica el **Database Diagram** que incluye los objetos de base de datos del bounded context de Fleet: tablas, columnas, constraints (primary key, foreign key) y las relaciones entre tablas.
 
 ![Database Diagram](assets/images/cap2/fleet-database-diagram.png)
+
+<br>
