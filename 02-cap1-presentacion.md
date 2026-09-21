@@ -64,12 +64,12 @@ Visualizamos un futuro en el que todas las empresas de transporte, sin importar 
 
 <br>
 
-**Kenyi Efrain Ramirez Cabrera (U20xxxxx)**
+**Kenyi Efrain Ramirez Cabrera (U202220138)**
 
 <div style="display: flex; align-items: center;">
-  <img src="assets/images/cap1/" alt="Descripción de la imagen" style="width: 150px; margin-right: 20px; border-radius: 10%;">
+  <img src="assets/images/cap1/kenyi-photo.jpeg" alt="Descripción de la imagen" style="width: 150px; margin-right: 20px; border-radius: 10%;">
   <div style="flex: 1;">
-  <p> </p>
+  <p>Soy Kenyi Ramirez, estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida y trabajadora. Poseo un nivel intermedio en los lenguajes C++, C#, Python, Java y HTML, además de algunos frameworks como Angular, Node.js y Vue, los cuales aplico para garantizar resultados efectivos en mis proyectos</p>
   </div> 
 </div>
 
