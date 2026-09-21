@@ -35,7 +35,7 @@ Proyecto
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 8px 16px;">U20xxxxxxx</td>
+      <td style="padding: 8px 16px;">U202315968</td>
       <td style="padding: 8px 16px;">Costa Morales, Christofer William</td>
     </tr>
     <tr>
@@ -47,7 +47,7 @@ Proyecto
       <td style="padding: 8px 16px;">Huaman Gallardo, Bruno Aldair</td>
     </tr>
     <tr>
-      <td style="padding: 8px 16px;">U20xxxxxxx</td>
+      <td style="padding: 8px 16px;">U202311082</td>
       <td style="padding: 8px 16px;">Miraval Pomalaya, Rodrigo Jesus</td>
     </tr>
     <tr>
@@ -151,5 +151,6 @@ Esta sección detalla cómo el equipo colaboró para construir el **Final Projec
 ## Objetivos SMART
 
 
+Testing Smart
 
 <div style="page-break-after: always;"></div>
