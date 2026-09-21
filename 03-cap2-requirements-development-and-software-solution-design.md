@@ -581,6 +581,8 @@ Ambos perfiles coinciden en la importancia de **gestionar incidencias** y **mant
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
 
+<img src="assets/images/cap2/eventstorming-cap2.jpeg" alt="EventStorming">
+
 ### 5.2.5.1. Candidate Context Discovery
 
 Se aplicaron las tres estrategias indicadas en el enunciado para identificar los bounded contexts a partir del EventStorm de Rutana.
