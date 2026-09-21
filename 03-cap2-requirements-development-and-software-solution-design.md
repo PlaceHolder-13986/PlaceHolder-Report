@@ -179,18 +179,18 @@ Nuestra propuesta de valor destaca por fusionar monitoreo IoT en tiempo real, au
 <tr>
 <td align='center'>
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213185_upc_edu_pe/ET1TzP6JedZArvWvap237PcBMwKH12NdqIgFlqqtIGRJIA?e=r2iFfE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target= 'blank'>
-<img src="Resources/Entrevista_Transportista_1.png" alt="Primera entrevista del primer segmento"
+<img src="assets/images/Cap 2/jhon huaman.png" alt="Primera entrevista del primer segmento"
  width="150">
 </a>
 </td>
 <td align='center'>
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213185_upc_edu_pe/EXnpE4mhsDFMmHRdgpIgWdkBw5qgJK4qoQR-ptPTdy-Lbg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=23t4N5" target= 'blank'>
-<img src="Resources/Entrevista_Transportista_2.png" alt="Segunda entrevista del primer segmento"  width="150">
+<img src="assets/images/Cap 2/Carlos Maque.png" alt="Segunda entrevista del primer segmento"  width="150">
 </a>
 </td>
 <td align='center'>
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213185_upc_edu_pe/EeUGT35ds8JEgUb9SddYv_MB7fjld1Jtl7ajbjpe9i-S3w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ny0ro0" target= 'blank'>
-<img src="Resources/Entrevista_Transportista_3.png" alt="Tercera entrevista del primer segmento" width="150" >
+<img src="assets/images/Cap 2/Danny Riverra.png" alt="Tercera entrevista del primer segmento" width="150" >
 </a>
 </td>
    <tr>
@@ -242,19 +242,19 @@ Link de entrevistas: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/
 <tr>
 <td align='center'>
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213185_upc_edu_pe/EVTQKC-v_1lEhE1mJT9JnmsB9xNmx4hF5Exa5TUm8AYjtg?e=tQDRf8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target= 'blank'>
-<img src="Resources/Entrevista_Administrador_1.png" alt="Primera entrevista del segundo segmento"
+<img src="assets/images/Cap 2/Miguel Fernandez.png" alt="Primera entrevista del segundo segmento"
  width="150">
 </a>
 </td>
 <td align='center'>
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213185_upc_edu_pe/EZLL3X652L5KoLk1RWZn0zoBWGmWOQ80ZYl12yLueoednQ?e=vXoTwInav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target= 'blank'>
-<img src="Resources/Entrevista_Administrador_2.png" alt="Segunda entrevista del segundo segmento"
+<img src="assets/images/Cap 2/Eliana Paullo.png" alt="Segunda entrevista del segundo segmento"
  width="150">
 </a>
 </td>
 <td align='center'>
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213185_upc_edu_pe/EcOPh-bhFsNCjQaceAJEYO8BwE3BUIW-e4wFdvoBHN-O2w?e=NPvjhC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target= 'blank'>
-<img src="Resources/Entrevista_Administrador_3.png" alt="Tercera entrevista del segundo segmento"  width="150">
+<img src="assets/images/Cap 2/Adriana Merma.png" alt="Tercera entrevista del segundo segmento"  width="150">
 </a>
 </td>
    <tr>
