@@ -627,3 +627,24 @@ En esta sección se presenta el **Component Diagram** de C4 Model correspondient
 
 <br>
 
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+En esta sección se presentan los diagramas que muestran un mayor detalle sobre la implementación de componentes en el bounded context de Fleet, incluyendo el diagrama de clases del Domain Layer y el diagrama de base de datos.
+
+<br>
+
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+Se presenta el **Class Diagram** en UML de las clases del Domain Layer del bounded context de Fleet, incluyendo atributos, métodos, su visibilidad (cuando corresponda) y la multiplicidad de las relaciones entre ellas.
+
+![Class Diagram](assets/images/cap2/fleet-domain-class-diagram.png)
+
+<br>
+
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+*(Nota: Añadí esta subsección para mantener la estructura completa de tu documento base)*
+
+Se presenta y explica el **Database Diagram** que incluye los objetos de base de datos del bounded context de Fleet: tablas, columnas, constraints (primary key, foreign key) y las relaciones entre tablas.
+
+![Database Diagram](assets/images/cap2/fleet-database-diagram.png)
