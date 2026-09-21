@@ -557,3 +557,18 @@ Se presenta el **Class Diagram** en UML de las clases del Domain Layer del bound
 Se presenta y explica el **Database Diagram** que incluye los objetos de base de datos del bounded context de IAM: tablas, columnas, constraints (primary key, foreign key) y las relaciones entre tablas.
 
 ![Database Diagram](assets/images/cap2/iam-database-diagram.png)
+
+
+### 2.6.2. Bounded Context: Fleet
+
+El bounded context **Fleet** corresponde a un *Core Domain* dentro de Rutana, encargado de la gestión integral de la flota de vehículos de las organizaciones de transporte, controlando su registro, disponibilidad, capacidad de carga y estado dentro del sistema. A continuación se detallan los términos clave de su lenguaje ubicuo:
+
+| Término | Definición |
+|:----|:----|
+| **Vehicle** | Unidad de transporte registrada en la plataforma perteneciente a una organización específica. |
+| **License Plate** | Identificador único alfanumérico legal de un vehículo. |
+| **Vehicle Capacity** | Capacidad máxima de carga expresada en kilogramos (kg) que un vehículo puede transportar. |
+| **Vehicle State** | Estado operativo del vehículo dentro de la flota (ej. Enabled, Disabled). |
+| **Fleet Context Facade** | Capa Anti-Corrupción (ACL) que expone capacidades del contexto de flota a otros Bounded Contexts. |
+
+<br>
