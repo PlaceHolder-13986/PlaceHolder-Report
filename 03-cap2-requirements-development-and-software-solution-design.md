@@ -229,7 +229,7 @@ Nuestra propuesta de valor destaca por fusionar monitoreo IoT en tiempo real, au
    </tr>
 </table>
 
-Link de entrevistas: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202213185_upc_edu_pe/IgC6XCkO02bIQbPZ--BEnpuOAYHAyiiltHW66CPLzoLIgZY?e=4vU42E">Segmento 01- Transportistas</a>
+Link de entrevistas: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315968_upc_edu_pe/IgCKXbh_32uXS69-VBq-wMImAdmonj2-7iZ4ZVsiDWAKElE?e=ffpJYm">Segmento 01- Transportistas</a>
 
 **Segundo Segmento Objetivo: Administradores**
 
@@ -298,7 +298,7 @@ Link de entrevistas: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/
    </tr>
 </table>
 
-Link de entrevistas: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202213185_upc_edu_pe/IgDQ5USk4fogRYJWS-bn6-0fAX_TZI9ks0st_QS8AJ9Vip4?e=I2UVXk">Segmento 02- Administración</a>
+Link de entrevistas: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315968_upc_edu_pe/IgB2L_q6O4iORK8XUs_QuMvKAeFxtTwxrbqLVKTeMAafTVA?e=ydA6C3">Segmento 02- Administración</a>
 
 Más informacion en Anexo A.
 
