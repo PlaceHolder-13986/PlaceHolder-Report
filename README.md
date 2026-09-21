@@ -73,6 +73,7 @@ Proyecto
 |   0.2   | 16/09/2026 | Howard Robles, Guillermo Arturo  | Creación del startup profile.         |
 |   0.3   | 16/09/2026 | Howard Robles, Guillermo Arturo  | Creación de los segmentos objetivos.  |
 |   0.4   | 19/09/2026 | Howard Robles, Guillermo Arturo  | creacion del outcome.                 |
+|   0.8 | 19/09/2026 | Howard Robles, Guillermo Arturo  | Creación del eventstorming.           |
 
 ---
 
