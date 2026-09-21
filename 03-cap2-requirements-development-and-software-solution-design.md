@@ -572,3 +572,17 @@ El bounded context **Fleet** corresponde a un *Core Domain* dentro de Rutana, en
 | **Fleet Context Facade** | Capa Anti-Corrupción (ACL) que expone capacidades del contexto de flota a otros Bounded Contexts. |
 
 <br>
+
+#### 2.6.2.1. Domain Layer
+
+En esta capa se modelan las clases de categoría como **Entities**, **Value Objects**, **Aggregates**, **Factories** y **Domain Services**, o abstracciones representadas por interfaces como en el caso de los **Repositories**.
+
+- **Aggregate Root:** `Vehicle` — encapsula la identidad, placa, capacidad, estado operativo y pertenencia a una organización.
+- **Entities:** (No aplica entidades secundarias adicionales dentro del agregado `Vehicle`).
+- **Value Objects:** `LicensePlate`, `VehicleCapacity`, `VehicleState`.
+- **Domain Services:** `VehicleService` — valida la disponibilidad del vehículo y aplica las reglas de negocio de la flota.
+- **Factories:** `VehicleFactory` — encapsula la creación de una entidad `Vehicle` con su estado e identificadores iniciales válidos.
+- **Repositories (interfaces):** `VehicleRepository`.
+
+<br>
+
