@@ -206,7 +206,7 @@ Nuestra propuesta de valor destaca por fusionar monitoreo IoT en tiempo real, au
     </p>
    </td>
    <td>
-    <b>Entrevistador:</b> Jesus Ivan Castillo Vidal <br>
+    <b>Entrevistador:</b> Guillermo Arturo Howard Robles <br>
     <b>Entrevistado:</b> Carlos Maque Huachaca <br>
     <b>Edad:</b> 30 años <br>
     <b>Distrito:</b> Santiago - Cusco <br>
@@ -216,7 +216,7 @@ Nuestra propuesta de valor destaca por fusionar monitoreo IoT en tiempo real, au
   <p> </p>
    </td>
       <td>
-    <b>Entrevistador:</b> Ingrid Melani Medina Merma <br>
+    <b>Entrevistador:</b> Kenyi Efrain Ramirez Cabrera <br>
     <b>Entrevistado:</b> Danny Riverra Ticona<br>
     <b>Edad:</b> 24 años <br>
     <b>Distrito:</b> San Jeronimo - Cusco <br>
@@ -259,7 +259,7 @@ Link de entrevistas: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/
 </td>
    <tr>
    <td>
-    <b>Entrevistador:</b> Santiago Alonso Gordillo Ramos <br>
+    <b>Entrevistador:</b> Christofer William Costa Morales <br>
     <b>Entrevistado:</b> Miguel Alcelmo Fernandez <br>
     <b>Edad:</b> 27 años <br>
     <b>Distrito:</b> Cusco <br>
@@ -270,7 +270,7 @@ Link de entrevistas: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/
     <p>
    </td>
    <td>
-    <b>Entrevistador: </b> Jesus Ivan Castillo Vidal <br>
+    <b>Entrevistador: </b> Rodrigo Jesus Miraval Pomalaya <br>
     <b>Entrevistado:</b>Eliana Paullo Palma<br>
     <b>Inicio de la entrevista:</b> 
     <b>Edad:</b> 49 años <br>
@@ -283,7 +283,7 @@ Link de entrevistas: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/
    </p>
    </td>
       <td>
-    <b>Entrevistador:</b> Yaku Mateo Guzmán Cabrejos  <br>
+    <b>Entrevistador:</b> Bruno Aldair Huaman Gallardo  <br>
     <b>Entrevistado: </b>Adriana Merma Noblega<br>
     <b>Inicio de la entrevista:</b> 
     <b>Edad:</b> 50 años <br>
