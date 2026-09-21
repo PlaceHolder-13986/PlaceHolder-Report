@@ -607,3 +607,13 @@ En esta sección se explica a través de qué clases se manejan los flujos de pr
   - `VehicleEventHandler` — reacciona a eventos de dominio (`VehicleRegistered`, `VehicleStateChanged`) y coordina efectos secundarios hacia otros bounded contexts (como Planning).
 
 <br>
+
+#### 2.6.2.4. Infrastructure Layer
+
+En esta capa se presentan aquellas clases que acceden a servicios externos como *databases*, *messaging systems* o *email services*. Es en esta capa se ubica la implementación de los **Repositories** para las interfaces definidas en Domain Layer.
+
+- `VehicleRepositoryImpl` — implementa `VehicleRepository` mediante la tecnología de persistencia de la aplicación.
+- `FleetContextFacadeImpl` — implementa la fachada para exponer consultas e integraciones con otros bounded contexts.
+- `DomainEventPublisher` — publica eventos de dominio relacionados con la flota hacia el message broker.
+
+<br>
