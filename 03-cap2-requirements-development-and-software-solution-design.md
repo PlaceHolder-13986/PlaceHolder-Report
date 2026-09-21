@@ -557,3 +557,95 @@ Se presenta el **Class Diagram** en UML de las clases del Domain Layer del bound
 Se presenta y explica el **Database Diagram** que incluye los objetos de base de datos del bounded context de IAM: tablas, columnas, constraints (primary key, foreign key) y las relaciones entre tablas.
 
 ![Database Diagram](assets/images/cap2/iam-database-diagram.png)
+
+
+### 2.6.2. Bounded Context: Fleet
+
+El bounded context **Fleet** corresponde a un *Core Domain* dentro de Rutana, encargado de la gestión integral de la flota de vehículos de las organizaciones de transporte, controlando su registro, disponibilidad, capacidad de carga y estado dentro del sistema. A continuación se detallan los términos clave de su lenguaje ubicuo:
+
+| Término | Definición |
+|:----|:----|
+| **Vehicle** | Unidad de transporte registrada en la plataforma perteneciente a una organización específica. |
+| **License Plate** | Identificador único alfanumérico legal de un vehículo. |
+| **Vehicle Capacity** | Capacidad máxima de carga expresada en kilogramos (kg) que un vehículo puede transportar. |
+| **Vehicle State** | Estado operativo del vehículo dentro de la flota (ej. Enabled, Disabled). |
+| **Fleet Context Facade** | Capa Anti-Corrupción (ACL) que expone capacidades del contexto de flota a otros Bounded Contexts. |
+
+<br>
+
+#### 2.6.2.1. Domain Layer
+
+En esta capa se modelan las clases de categoría como **Entities**, **Value Objects**, **Aggregates**, **Factories** y **Domain Services**, o abstracciones representadas por interfaces como en el caso de los **Repositories**.
+
+- **Aggregate Root:** `Vehicle` — encapsula la identidad, placa, capacidad, estado operativo y pertenencia a una organización.
+- **Entities:** (No aplica entidades secundarias adicionales dentro del agregado `Vehicle`).
+- **Value Objects:** `LicensePlate`, `VehicleCapacity`, `VehicleState`.
+- **Domain Services:** `VehicleService` — valida la disponibilidad del vehículo y aplica las reglas de negocio de la flota.
+- **Factories:** `VehicleFactory` — encapsula la creación de una entidad `Vehicle` con su estado e identificadores iniciales válidos.
+- **Repositories (interfaces):** `VehicleRepository`.
+
+<br>
+
+#### 2.6.2.2. Interface Layer
+
+En esta sección se introduce y presenta las clases que forman parte de la Interface/Presentation Layer, como clases del tipo **Controllers** o **Consumers**.
+
+- **Controllers:**
+  - `VehicleController` — expone los endpoints de registro, consulta, actualización de perfil y modificación del estado del vehículo.
+
+<br>
+
+#### 2.6.2.3. Application Layer
+
+En esta sección se explica a través de qué clases se manejan los flujos de procesos del negocio. Debe evidenciarse las capabilities de la aplicación en relación al bounded context. Aquí deben considerarse clases del tipo **Command Handlers** e **Event Handlers**.
+
+- **Command Handlers:**
+  - `VehicleCommandService` — procesa la creación, actualización de perfil y cambio de estado de los vehículos.
+- **Query Handlers:**
+  - `VehicleQueryService` — resuelve las consultas sobre vehículos por ID, por organización o por estado.
+- **Event Handlers:**
+  - `VehicleEventHandler` — reacciona a eventos de dominio (`VehicleRegistered`, `VehicleStateChanged`) y coordina efectos secundarios hacia otros bounded contexts (como Planning).
+
+<br>
+
+#### 2.6.2.4. Infrastructure Layer
+
+En esta capa se presentan aquellas clases que acceden a servicios externos como *databases*, *messaging systems* o *email services*. Es en esta capa se ubica la implementación de los **Repositories** para las interfaces definidas en Domain Layer.
+
+- `VehicleRepositoryImpl` — implementa `VehicleRepository` mediante la tecnología de persistencia de la aplicación.
+- `FleetContextFacadeImpl` — implementa la fachada para exponer consultas e integraciones con otros bounded contexts.
+- `DomainEventPublisher` — publica eventos de dominio relacionados con la flota hacia el message broker.
+
+<br>
+
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+En esta sección se presenta el **Component Diagram** de C4 Model correspondiente al bounded context de Fleet, reflejando la descomposición del Container en sus principales bloques estructurales (Interface, Application, Domain e Infrastructure Layer) y sus interacciones.
+
+![Component_Diagram](assets/images/cap2/fleet-component-diagram.png)
+
+<br>
+
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+En esta sección se presentan los diagramas que muestran un mayor detalle sobre la implementación de componentes en el bounded context de Fleet, incluyendo el diagrama de clases del Domain Layer y el diagrama de base de datos.
+
+<br>
+
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+Se presenta el **Class Diagram** en UML de las clases del Domain Layer del bounded context de Fleet, incluyendo atributos, métodos, su visibilidad (cuando corresponda) y la multiplicidad de las relaciones entre ellas.
+
+![Class Diagram](assets/images/cap2/fleet-domain-class-diagram.png)
+
+<br>
+
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+Se presenta y explica el **Database Diagram** que incluye los objetos de base de datos del bounded context de Fleet: tablas, columnas, constraints (primary key, foreign key) y las relaciones entre tablas.
+
+![Database Diagram](assets/images/cap2/fleet-database-diagram.png)
+
+<br>
