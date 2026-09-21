@@ -617,3 +617,13 @@ En esta capa se presentan aquellas clases que acceden a servicios externos como 
 - `DomainEventPublisher` — publica eventos de dominio relacionados con la flota hacia el message broker.
 
 <br>
+
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+En esta sección se presenta el **Component Diagram** de C4 Model correspondiente al bounded context de Fleet, reflejando la descomposición del Container en sus principales bloques estructurales (Interface, Application, Domain e Infrastructure Layer) y sus interacciones.
+
+![Component_Diagram](assets/images/cap2/fleet-component-diagram.png)
+
+<br>
+
